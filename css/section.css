@@ -1,0 +1,122 @@
+section {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+.story {
+  width: 60px;
+}
+
+/* Arrow */
+
+section .container .left .arrow ul li {
+  display: inline-block;
+  margin: 0 1rem;
+  position: relative;
+}
+
+section .container .left .arrow {
+  border: 1px solid #dbdbdb;
+  padding-top: 2rem;
+  padding-bottom: 2.5rem;
+  width: 50%;
+}
+
+section .container .left .arrow ul li a {
+  position: absolute;
+  top: 65px;
+  right: 8px;
+  color: #000;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+/* Center */
+
+.alt {
+  border: 1px solid #dbdbdb;
+  width: 50%;
+}
+
+.alt .item {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.item .profile {
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.item .profile a {
+  color: #000;
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-left: 1rem;
+}
+
+.photo {
+  width: 35px;
+}
+
+.post {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  max-width: 100%;
+  height: auto;
+}
+
+.font {
+  padding-left: 0.4rem;
+  padding-right: 0.4rem;
+}
+
+.font i {
+  font-size: 2.6rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  cursor: pointer;
+}
+
+.comment {
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.comments {
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+
+.ago {
+  text-transform: uppercase;
+  color: grey;
+  font-size: 1rem;
+}
+
+.right-to {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  section .container .left .arrow {
+    width: 100%;
+  }
+
+  .alt {
+    width: 100%;
+    border: none;
+    margin-top: 0;
+  }
+
+  section {
+    padding: 8rem 0;
+  }
+
+  .alt .item {
+    border-bottom: none;
+  }
+}
